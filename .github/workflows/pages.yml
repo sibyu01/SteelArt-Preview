@@ -29,3 +29,5 @@ jobs:
           path: .
       - id: deployment
         uses: actions/deploy-pages@v4
+
+# Retry deployment after enabling GitHub Pages in repository settings.
